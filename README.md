@@ -39,3 +39,19 @@ function checkPalindrome(inputString) {
 }
 ```
 Source: https://app.codesignal.com/arcade/intro/level-1/s5PbmwxfECC52PWyQ
+
+4. [Self] Write a function that checks if two arrays contain identical data.
+
+```javascript
+function compareArrays(array1, array2) {
+  let same = true;
+  array1.forEach((a, i) => {
+    if (!same) return;
+    same = a === array2[i];
+  });
+  return same;
+}
+```
+Source: https://codesandbox.io/s/xv782x12ko
+
+
