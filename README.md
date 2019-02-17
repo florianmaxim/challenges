@@ -20,3 +20,22 @@ function centuryFromYear(year){
 ```
 
 Source: https://app.codesignal.com/arcade/intro/level-1/egbueTZRRL5Mm4TXN
+
+3. Write a function that checks if a given string is a palindrome.
+
+```javascript
+function checkPalindrome(inputString) {
+    
+    const array = [ ...inputString];
+    const arrayReverse = [ ...inputString].reverse();
+    
+    let check = true;
+    array.forEach((a,i) => {
+        if(check === false) return;
+        check = a === arrayReverse[i];
+    })
+    
+    return check;
+}
+```
+Source: https://app.codesignal.com/arcade/intro/level-1/s5PbmwxfECC52PWyQ
