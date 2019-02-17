@@ -40,7 +40,7 @@ function checkPalindrome(inputString) {
 ```
 Source: https://app.codesignal.com/arcade/intro/level-1/s5PbmwxfECC52PWyQ
 
-4. [Self] Write a function that checks if two arrays contain identical data.
+4. [Self] Write a function that checks if two arrays contain identical data (in the same order).
 
 ```javascript
 function compareArrays(array1, array2) {
