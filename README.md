@@ -2,7 +2,7 @@
 # All The Coding Challenges I've Ever Done
 
 
-## 5. How many sundays? Or what the heck is "neduit"?
+## 5. How Many Sundays? Or What The Heck Is "neduit"?
 
 Write a function that returns the amount of sundays for a given period(n-days) starting from a specific day(d).
 
