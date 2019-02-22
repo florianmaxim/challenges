@@ -1,5 +1,5 @@
 
-# All The Coding Challenges I've Ever Done
+# All The Coding Challenges I've Ever Solved (And Created)
 
 
 ## 5. How Many Sundays? Or What The Heck Is "neduit"?
