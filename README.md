@@ -3,6 +3,15 @@
 
 ## 6. What is a basic useful regex example?
 
+How many double s ('ss') does 'Mississipi' contain?
+
+```javascript
+const difficultSpelling = "Mississippi";
+const myRegex = /s+/g; // Change this line
+const result = difficultSpelling.match(myRegex);
+console.log(result.length)
+```
+
 Find all vowels within a string using regex.
 
 ```javascript
