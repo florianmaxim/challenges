@@ -1,6 +1,16 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 6. What is a basic useful regex example?
+
+Find all vowels within a string using regex.
+
+```javascript
+const testString = "We are all made of stardust.";
+const vowelRegex = /[aeiou]/gi;
+const result = testString.match(vowelRegex);
+```
+Source: https://app.codesignal.com/challenge/u8fmjEnYDRp3kZ2tt
 
 ## 5. How Many Sundays? Or What The Heck Is "neduit"?
 
