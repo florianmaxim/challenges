@@ -8,6 +8,7 @@ Find all vowels within a string using regex.
 ```javascript
 const testString = "We are all made of stardust.";
 const vowelRegex = /[aeiou]/gi;
+const notVowelRogex = [^aeiou]/gi;
 const result = testString.match(vowelRegex);
 ```
 Source: https://app.codesignal.com/challenge/u8fmjEnYDRp3kZ2tt
