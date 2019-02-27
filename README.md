@@ -7,7 +7,7 @@ How many double s ('ss') does 'Mississipi' contain?
 
 ```javascript
 const difficultSpelling = "Mississippi";
-const myRegex = /s+/g; // Change this line
+const myRegex = /ss/g; // Change this line
 const result = difficultSpelling.match(myRegex);
 console.log(result.length)
 ```
