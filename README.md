@@ -3,6 +3,15 @@
 
 ## 6. What is a basic useful regex example?
 
+A more practical use of lookaheads is to check two or more patterns in one string. Here is a (naively) simple password checker that looks for between 3 and 6 characters and at least one number:
+
+```javascript
+let sampleWord = "astronaut";
+let pwRegex = /(?=\w{5,})(?=\D*\d{2})/; // Change this line
+let result = pwRegex.test(sampleWord);
+```
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/regular-expressions/positive-and-negative-lookahead
+
 How many double s ('ss') does 'Mississipi' contain?
 
 ```javascript
