@@ -1,6 +1,13 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 12. Chunky Monkey
+
+Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a two-dimensional array.
+
+Code: https://codesandbox.io/s/4w7zoj5xlw
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting/chunky-monkey
+
 ## 11. Where Do I Belong?
 
 Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted. The returned value should be a number.
