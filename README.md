@@ -1,6 +1,26 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 10. Falsy Bouncer
+
+Remove all falsy values from an array.
+(Falsy values in JavaScript are false, null, 0, "", undefined, and NaN.)
+
+```javascript
+function isTruthy(v){
+  return v
+}
+
+function bouncer(arr) {
+  return arr.filter(isTruthy);
+}
+
+bouncer([7, "ate", "", false, 9]);
+//[7, "ate", 9].
+```
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting/falsy-bouncer
+
 ## 9. Slice And Splice
 
 You are given two arrays and an index.
