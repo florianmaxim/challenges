@@ -1,6 +1,16 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 14. Sum All Numbers In A Range
+
+We'll pass you an array of two numbers. Return the sum of those two numbers plus the sum of all the numbers between them.
+
+The lowest number will not always come first.
+
+Code: https://codesandbox.io/s/j9q37z115
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-numbers-in-a-range
+
 ## 13. [TODO] Average Score (How To Use Reduce)
 
 Array.prototype.reduce(), or simply reduce(), is the most general of all array operations in JavaScript. You can solve almost any array processing problem using the reduce method.
