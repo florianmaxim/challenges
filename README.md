@@ -11,6 +11,8 @@ The reduce method allows for more general forms of array processing, and it's po
 
 However, before we get there, let's practice using reduce first.
 
+Code: https://codesandbox.io/s/7ww34y1nk1
+
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/use-the-reduce-method-to-analyze-data
 
 ## 12. Chunky Monkey
