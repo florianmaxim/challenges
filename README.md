@@ -1,11 +1,24 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 13. [TODO] Average Score (How To Use Reduce)
+
+Array.prototype.reduce(), or simply reduce(), is the most general of all array operations in JavaScript. You can solve almost any array processing problem using the reduce method.
+
+This is not the case with the filter and map methods since they do not allow interaction between two different elements of the array. For example, if you want to compare elements of the array, or add them together, filter or map could not process that.
+
+The reduce method allows for more general forms of array processing, and it's possible to show that both filter and map can be derived as a special application of reduce.
+
+However, before we get there, let's practice using reduce first.
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/use-the-reduce-method-to-analyze-data
+
 ## 12. Chunky Monkey
 
 Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a two-dimensional array.
 
 Code: https://codesandbox.io/s/4w7zoj5xlw
+
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting/chunky-monkey
 
 ## 11. Where Do I Belong?
