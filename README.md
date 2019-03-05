@@ -1,6 +1,14 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 15. Difference Of Two Arrays
+
+Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
+
+Code: https://codesandbox.io/s/2x7w0mx9jp
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/diff-two-arrays
+
 ## 14. Sum All Numbers In A Range
 
 We'll pass you an array of two numbers. Return the sum of those two numbers plus the sum of all the numbers between them.
