@@ -1,6 +1,14 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 16. Advanced List Filtering
+
+Make a function that looks through an array of objects (first argument) and returns an array of all objects that have matching name and value pairs (second argument). Each name and value pair of the source object has to be present in the object from the collection if it is to be included in the returned array.
+
+Code: https://codesandbox.io/s/84qw68lkj2
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/wherefore-art-thou
+
 ## 15. Difference Of Two Arrays
 
 Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
