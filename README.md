@@ -1,6 +1,14 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 20. Sum All Odd Fibonacci Numbers
+
+Given a positive integer num, return the sum of all odd Fibonacci numbers that are less than or equal to num.
+
+Code: https://codesandbox.io/s/30r5146qw1
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-odd-fibonacci-numbers
+
 ## 19. Search And Replace
 
 Perform a search and replace on the sentence using the arguments provided and return the new sentence.
