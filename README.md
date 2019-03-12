@@ -1,11 +1,22 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+
+## 21. Sum All Primes
+
+Sum all the prime numbers up to and including the provided number.
+
+A prime number is defined as a number greater than one and having only two divisors, one and itself. For example, 2 is a prime number because it's only divisible by one and two.
+
+Solution: hhttps://codesandbox.io/s/1zk5oyvxo4
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-primes
+
 ## 20. Sum All Odd Fibonacci Numbers
 
 Given a positive integer num, return the sum of all odd Fibonacci numbers that are less than or equal to num.
 
-Code: https://codesandbox.io/s/30r5146qw1
+Solution: https://codesandbox.io/s/30r5146qw1
 
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-odd-fibonacci-numbers
 
@@ -19,7 +30,7 @@ Second argument is the word that you will be replacing (before).
 
 Third argument is what you will be replacing the second argument with (after).
 
-Code: https://codesandbox.io/s/4rvovn2r4x
+Solution: https://codesandbox.io/s/4rvovn2r4x
 
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/search-and-replace/
 
@@ -33,7 +44,7 @@ If a word begins with a vowel you just add "way" to the end.
 
 Input strings are guaranteed to be English words in all lowercase.
 
-Code: [TODO] https://codesandbox.io/s/qvwn1q8nr9
+Solution: [TODO] https://codesandbox.io/s/qvwn1q8nr9
 
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/pig-latin
 
@@ -41,7 +52,7 @@ Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures
 
 Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
 
-Code: https://codesandbox.io/s/l7l2p3qww9
+Solution: https://codesandbox.io/s/l7l2p3qww9
 
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/spinal-tap-case
 
@@ -49,7 +60,7 @@ Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures
 
 Make a function that looks through an array of objects (first argument) and returns an array of all objects that have matching name and value pairs (second argument). Each name and value pair of the source object has to be present in the object from the collection if it is to be included in the returned array.
 
-Code: https://codesandbox.io/s/84qw68lkj2
+Solution: https://codesandbox.io/s/84qw68lkj2
 
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/wherefore-art-thou
 
@@ -57,7 +68,7 @@ Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures
 
 Compare two arrays and return a new array with any items only found in one of the two given arrays, but not both. In other words, return the symmetric difference of the two arrays.
 
-Code: https://codesandbox.io/s/2x7w0mx9jp
+Solution: https://codesandbox.io/s/2x7w0mx9jp
 
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/diff-two-arrays
 
@@ -67,7 +78,7 @@ We'll pass you an array of two numbers. Return the sum of those two numbers plus
 
 The lowest number will not always come first.
 
-Code: https://codesandbox.io/s/j9q37z115
+Solution: https://codesandbox.io/s/j9q37z115
 
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-numbers-in-a-range
 
@@ -81,7 +92,7 @@ The reduce method allows for more general forms of array processing, and it's po
 
 However, before we get there, let's practice using reduce first.
 
-Code: https://codesandbox.io/s/7ww34y1nk1
+Solution: https://codesandbox.io/s/7ww34y1nk1
 
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/use-the-reduce-method-to-analyze-data
 
@@ -89,7 +100,7 @@ Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures
 
 Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a two-dimensional array.
 
-Code: https://codesandbox.io/s/4w7zoj5xlw
+Solution: https://codesandbox.io/s/4w7zoj5xlw
 
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting/chunky-monkey
 
@@ -101,7 +112,7 @@ For example, getIndexToIns([1,2,3,4], 1.5) should return 1 because it is greater
 
 Likewise, getIndexToIns([20,3,5], 19) should return 2 because once the array has been sorted it will look like [3,5,20] and 19 is less than 20 (index 2) and greater than 5 (index 1).
 
-Code: https://codesandbox.io/s/720jkzry11
+Solution: https://codesandbox.io/s/720jkzry11
 
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting/where-do-i-belong
 
@@ -135,7 +146,7 @@ Begin inserting elements at index n of the second array.
 
 Return the resulting array. The input arrays should remain the same after the function runs.
 
-Code: https://codesandbox.io/s/02lj1v46p
+Solution: https://codesandbox.io/s/02lj1v46p
 
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting/slice-and-splice/
 
