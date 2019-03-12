@@ -1,6 +1,20 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 19. Search And Replace
+
+Perform a search and replace on the sentence using the arguments provided and return the new sentence.
+
+First argument is the sentence to perform the search and replace on.
+
+Second argument is the word that you will be replacing (before).
+
+Third argument is what you will be replacing the second argument with (after).
+
+Code: https://codesandbox.io/s/4rvovn2r4x
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/search-and-replace/
+
 ## 18. Pig Latin
 
 Translate the provided string to pig latin.
