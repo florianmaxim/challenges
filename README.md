@@ -1,6 +1,14 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 17. Spinal Tap Case
+
+Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
+
+Code: https://codesandbox.io/s/l7l2p3qww9
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/spinal-tap-case
+
 ## 16. Advanced List Filtering
 
 Make a function that looks through an array of objects (first argument) and returns an array of all objects that have matching name and value pairs (second argument). Each name and value pair of the source object has to be present in the object from the collection if it is to be included in the returned array.
