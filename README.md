@@ -1,6 +1,20 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 18. Pig Latin
+
+Translate the provided string to pig latin.
+
+Pig Latin takes the first consonant (or consonant cluster) of an English word, moves it to the end of the word and suffixes an "ay".
+
+If a word begins with a vowel you just add "way" to the end.
+
+Input strings are guaranteed to be English words in all lowercase.
+
+Code: [TODO] https://codesandbox.io/s/qvwn1q8nr9
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/pig-latin
+
 ## 17. Spinal Tap Case
 
 Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
