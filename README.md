@@ -1,6 +1,16 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 23. Binary To English
+
+Return an English translated sentence of the passed binary string.
+
+The binary string will be space separated.
+
+Solution: [PENDING]
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/binary-agents
+
 ## 22. Smallest Common Multiple
 
 Find the smallest common multiple of the provided parameters that can be evenly divided by both, as well as by all sequential numbers in the range between these parameters.
