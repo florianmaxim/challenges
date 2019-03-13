@@ -1,6 +1,58 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 30. Ceaser's Cipher
+
+One of the simplest and most widely known ciphers is a Caesar cipher, also known as a shift cipher. In a shift cipher the meanings of the letters are shifted by some set amount.
+
+A common modern use is the ROT13 cipher, where the values of the letters are shifted by 13 places. Thus 'A' ↔ 'N', 'B' ↔ 'O' and so on.
+
+Write a function which takes a ROT13 encoded string as input and returns a decoded string.
+
+All letters will be uppercase. Do not transform any non-alphabetic character (i.e. spaces, punctuation), but do pass them on.
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/caesars-cipher
+
+```javascript
+const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+//console.log(alphabet.length)
+
+function rot13(str) { // LBH QVQ VG!
+
+  const org = str
+  console.log(str.length)
+
+  let newStr = ''
+  str = str.split(' ')
+
+  for (const i of str){
+    for(const char of i){
+      // Catch symbols
+      if(char.match(/\!|\?|\./)){
+        newStr += char
+      }else{
+      //console.log(char)
+      let index = alphabet.indexOf(char)
+      index = index+13
+
+      if(index >= 26)
+      index = index -26
+
+      //console.log(alphabet[index])
+      newStr += alphabet[index]
+      }
+    }
+
+    if(newStr.length!==org.length)
+    newStr += ' '
+  }
+  return newStr;
+}
+
+// Change the inputs below to test
+console.log(rot13("SERR PBQR PNZC"));
+```
+
 ## 29. Roman Numeral Converter
 
 ## 28. Palindrome Checker
