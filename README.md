@@ -29,6 +29,8 @@ function fearNotLetter(str) {
 console.log(fearNotLetter("abce"));
 ```
 
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/missing-letters
+
 ## 26. Sorted Union
 
 Write a function that takes two or more arrays and returns a new array of unique values in the order of the original provided arrays.
