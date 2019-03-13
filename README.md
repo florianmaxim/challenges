@@ -1,6 +1,19 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+
+## 24. Everything Be True
+
+Check if the predicate (second argument) is truthy on all elements of a collection (first argument).
+
+In other words, you are given an array collection of objects. The predicate pre will be an object property and you need to return true if its value is truthy. Otherwise, return false.
+
+In JavaScript, truthy values are values that translate to true when evaluated in a Boolean context.
+
+Solution: https://codesandbox.io/s/ooom6qwjz5
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/everything-be-true
+
 ## 23. Binary To English (ASCII)
 
 Return an English translated sentence of the passed binary string.
