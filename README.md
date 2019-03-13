@@ -1,6 +1,43 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 25. DNA Pairing
+
+The DNA strand is missing the pairing element. Take each character, get its pair, and return the results as a 2d array.
+
+Base pairs are a pair of AT and CG. Match the missing element to the provided character.
+
+Return the provided character as the first element in each array.
+
+For example, for the input GCG, return [["G", "C"], ["C","G"],["G", "C"]]
+
+The character and its pair are paired up in an array, and all the arrays are grouped into one encapsulating array.
+
+```javascript
+function pairElement(str) {
+  
+  let result = [];
+  for(const el of str){
+    
+    if(el.match(/G/))
+    result.push(['G','C'])
+
+    if(el.match(/C/))
+    result.push(['C','G'])
+
+    if(el.match(/A/))
+    result.push(['A','T'])
+
+    if(el.match(/T/))
+    result.push(['T','A'])
+    
+  }
+
+  return result;
+}
+```
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/dna-pairing
 
 ## 24. Everything Be True
 
