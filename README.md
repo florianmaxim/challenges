@@ -1,6 +1,34 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 27. Missing Letters
+
+Find the missing letter in the passed letter range and return it.
+
+If all letters are present in the range, return undefined.
+
+```javascript
+const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+
+function fearNotLetter(str) {
+  
+  const firstLetterIndex = alphabet.indexOf(str.charAt(0))
+
+  let index = firstLetterIndex;
+  
+  for(const char of str){
+
+    if(alphabet[index] !== char)
+    return alphabet[index]
+
+    index += 1;
+  }
+
+}
+
+console.log(fearNotLetter("abce"));
+```
+
 ## 26. Sorted Union
 
 Write a function that takes two or more arrays and returns a new array of unique values in the order of the original provided arrays.
