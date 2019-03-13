@@ -1,6 +1,36 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 29. Roman Numeral Converter
+
+## 28. Palindrome Checker
+
+Return true if the given string is a palindrome. Otherwise, return false.
+
+A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/palindrome-checker
+
+```javascript
+function palindrome(str) {
+  // lowercase
+  str = str.toLowerCase()
+  // Remove unwanted characters
+  str = str.replace(/\W/g,'')
+  str = str.replace(/\_/g,'')
+  // Ready to check
+  console.log(str)
+
+  for(let i = 0; i , str.length; i += 1){
+    if(str[i] !== str[str.length-i-1]) return false
+  }
+
+  return true;
+}
+console.log(palindrome("race car")); // true
+console.log(palindrome("A man, a plan, a canal. Panama")) // true
+```
+
 ## 27. Missing Letters
 
 Find the missing letter in the passed letter range and return it.
