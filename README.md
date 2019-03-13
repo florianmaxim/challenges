@@ -1,6 +1,31 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
+## 26. Sorted Union
+
+Write a function that takes two or more arrays and returns a new array of unique values in the order of the original provided arrays.
+
+In other words, all values present from all arrays should be included in their original order, but with no duplicates in the final array.
+
+The unique numbers should be sorted by their original order, but the final array should not be sorted in numerical order.
+
+```javascript
+function uniteUnique() {
+  let newArr = [];
+  for(const arr of arguments){
+    //console.log(JSON.stringify(arr))
+    for(const item of arr){
+      //console.log(item)
+      if(newArr.indexOf(item) === -1)
+      newArr.push(item)
+    }
+  }
+  return newArr;
+}
+```
+
+Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sorted-union
+
 ## 25. DNA Pairing
 
 The DNA strand is missing the pairing element. Take each character, get its pair, and return the results as a 2d array.
