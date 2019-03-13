@@ -240,7 +240,7 @@ function compareArrays(array1, array2) {
 ```
 Source: https://codesandbox.io/s/xv782x12ko
 
-## 3. Write a function that checks if a given string is a palindrome.
+## 3. Is Palindrome
 
 ```javascript
 function checkPalindrome(inputString) {
@@ -259,7 +259,7 @@ function checkPalindrome(inputString) {
 ```
 Source: https://app.codesignal.com/arcade/intro/level-1/s5PbmwxfECC52PWyQ
 
-## 2. Write a function that returns the century of a year.
+## 2. Century Of A Year
 
 ```javascript
 function centuryFromYear(year){
