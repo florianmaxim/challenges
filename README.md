@@ -269,7 +269,7 @@ function centuryFromYear(year){
 
 Source: https://app.codesignal.com/arcade/intro/level-1/egbueTZRRL5Mm4TXN
 
-## 1. Write a function that returns the sum of two values.
+## 1. Sum Of Two Values
 
 ```javascript
 function sum(value1, value2){
