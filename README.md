@@ -1,13 +1,13 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
 
-## 23. Binary To English
+## 23. Binary To English (ASCII)
 
 Return an English translated sentence of the passed binary string.
 
 The binary string will be space separated.
 
-Solution: [PENDING]
+Solution: https://codesandbox.io/s/n5ozj51o3m
 
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/binary-agents
 
