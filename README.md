@@ -188,7 +188,7 @@ Solution: https://codesandbox.io/s/ooom6qwjz5
 
 Source: https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/everything-be-true
 
-## 23. Binary To English (ASCII)
+## 23. Binary To ASCII (And Back)
 
 Return an English translated sentence of the passed binary string.
 
