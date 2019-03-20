@@ -1,5 +1,6 @@
 
 # All The Coding Challenges I've Ever Solved (And Created)
+(At least those I liked)
 
 ## 30. Ceaser's Cipher
 
