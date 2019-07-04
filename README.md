@@ -408,9 +408,7 @@ Source: https://app.codesignal.com/challenge/u8fmjEnYDRp3kZ2tt
 
 Write a function that returns the amount of sundays for a given period(n-days) starting from a specific day(d).
 
-```javascript
-https://codesandbox.io/s/8l0ym669ql
-```
+Code: https://codesandbox.io/s/8l0ym669ql
 Source: https://app.codesignal.com/challenge/u8fmjEnYDRp3kZ2tt
 
 ### 4. [Self] Write a function that checks if two arrays contain identical data (in the same order).
